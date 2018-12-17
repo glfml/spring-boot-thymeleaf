@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8"/>
     <title th:text="${mensaje}">Title</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
 </head>
 <body>
 <h1 th:text="${mensaje}"></h1>
+<h2>Levantando statics</h2>
+<img th:src="@{/images/descarga.jpeg}" alt="">
+<script th:src="@{/js/file.js}"></script>
 </body>
 </html>
